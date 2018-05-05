@@ -5,11 +5,10 @@ class FilterObject extends Component {
         super();
         this.state = {
             unFilteredArray: [
-                { username: 'johndoe12', password: 'qwertyuiop', role: 'Admin', priority: 100 },
-                { username: 'bob_sm1th', password: 'rumpelstilskin', role: 'Supervisor', isVIP: false },
-                { username: 'pennyLane', password: 'keepitsecret', role: 'Contributor', membership: 'Premium' },
-                { username: 'nicole5000', password: 'elvis-lives!', role: 'Contributor', hasAccess: false },
-                { username: 'danTheMan', password: '*#&@zpmn', role: 'Supervisor', isVIP: true },
+                { username: 'johndoe12', password: 'qwertyuiop', priority: 100 },
+                { username: 'pennyLane', password: 'keepitsecret', membership: 'Premium' },
+                { username: 'nicole5000', password: 'elvis-lives!', hasAccess: false },
+                { username: 'danTheMan', password: '*#&@zpmn', isVIP: true },
             ],
             userInput: '',
             filteredArray: []
